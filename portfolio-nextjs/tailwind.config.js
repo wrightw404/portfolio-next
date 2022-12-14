@@ -1,11 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cove-bg-image': "url('/public/mainBackground.jpg')",
+      }
+    },
   },
   plugins: [],
-}
+};
