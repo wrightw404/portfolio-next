@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'cove-bg-image': "url('/public/mainBackground.jpg')",
-      }
+        'cove-bg-image': "url('../public/mainBackground.jpg')",
+      },
+      colors: {
+        'electric-blue': '#66FCF1',
+        'cool-grey': '#C5C6C7'
+      },
     },
   },
   plugins: [],
