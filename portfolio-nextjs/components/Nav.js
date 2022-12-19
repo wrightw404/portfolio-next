@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="sticky top-0 w-full h-20 shadow-xl z-50">
       <div className="flex justify-between items-center w-full h-full px-2 2-xl:px-16">
         <a href="/">
           <Image

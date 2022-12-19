@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
 
       <div className="grid justify-items-center">
-        <h1 className="text-electric-blue text-5xl pt-60">William W. Wright</h1>
+        <h1 className="text-electric-blue text-5xl pt-40">William W. Wright</h1>
         <h3 className="text-cool-grey text-2xl pt-3">
           Experience Architect // Full-Stack Web Developer
         </h3>
