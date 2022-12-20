@@ -12,7 +12,7 @@ export default function Footer() {
     //     </li>
     //   </ul>
     // </nav>
-    <div className="bg-transparent p-2 fixed bottom-0">
+    <div className="bg-black w-full p-2 fixed bottom-0">
       {/* <Image
         src="/../public/assets/logos/cLogo.png"
         alt="logo"
