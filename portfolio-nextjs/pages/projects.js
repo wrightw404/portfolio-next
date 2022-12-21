@@ -9,7 +9,6 @@ export default function projects() {
       <Nav />
       <section className="justify-items-center pt-16 ">
         <div className="bg-second-bg-image bg-[length:1750px_210px] py-24" alt="city">
-          {/* <h1 className="text-electric-blue text-5xl text-center">About</h1> */}
         </div>
       </section>
       <div className="max-w-[1240px] mx-auto px-2 py-16">
