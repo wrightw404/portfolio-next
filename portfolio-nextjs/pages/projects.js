@@ -1,7 +1,7 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 // import Image from "next/image";
-// import Link from "next/link";
+import Link from "next/link";
 import fuelcure from "../public/assets/projects/newfuel.png";
 import btat from "../public/assets/projects/beenthereatethat.png"
 import FE from "../public/assets/projects/fantastic-ecommerce.png"
@@ -41,14 +41,14 @@ export default function Projects() {
           title="Sydney Children's Hospitals Foundation" 
           backgroundImg={schf} 
           skills='UX and Web Design'
-          projectUrl='/schf'
+          projectUrl= {<Link href="/public/SydneyKidsWireframe.pdf"> </Link>}
           />
 
           <ProjectItem 
           title='Been There Ate That' 
           backgroundImg={btat} 
           skills='React JS, Handlebars, Materialize CSS' 
-          projectUrl='/beenthereatethat'
+          projectUrl='https://github.com/ddangeles/BeenThere-AteThat'
           />
 
           <ProjectItem 
