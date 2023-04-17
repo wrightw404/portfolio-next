@@ -17,12 +17,17 @@ export default function About() {
             <section className="text-electric-blue px-10">
             <h4 className="tracking-wider font-bolder underline">Education:</h4>
             <ol className="text-cool-grey py-2">
-                <li className="py-3"><p className="text-dark-blue">Michigan State University,</p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" href='https://xa.cal.msu.edu/'>BA Experience Architecture</a></li>
+                <li className="py-3"><p className="font-bold">Michigan State University,</p><a className="hover:text-electric-blue hover:font-bold hover:underline pl-4" href='https://xa.cal.msu.edu/'>BA Experience Architecture</a></li>
                 <li><a className="hover:text-electric-blue hover:font-bold hover:underline" href='https://bootcamp.extension.ucsd.edu/coding/'>UCSD Extended Studies: Coding Bootcamp</a></li>
             </ol>
             <h4 className="tracking-wider font-bolder underline py-2">Work:</h4>
             <ol className="text-cool-grey">
-              <h3 className="text-dark-blue pt-3">Sydney Children's Hospitals Foundation; Sydney, Australia</h3>
+              <h3 className="font-bold pt-3">Sydney Children's Hospitals Foundation; Sydney, Australia</h3>
+              <h4 className="pl-4">Role: Digital Intern</h4>
+              <p className="py-3">Responsible for coordinating the redevelopment of the Foundation's website to facilitate the recent expansion of entities to include The Children's Hospital Westmead, Bear Cottage, NETS and Kids Research in conjunction with a Digital Producer</p>
+            </ol>
+            <ol className="text-cool-grey">
+              <h3 className="font-bold pt-3">Sydney Children's Hospitals Foundation; Sydney, Australia</h3>
               <h4 className="pl-4">Role: Digital Intern</h4>
               <p className="py-3">Responsible for coordinating the redevelopment of the Foundation's website to facilitate the recent expansion of entities to include The Children's Hospital Westmead, Bear Cottage, NETS and Kids Research in conjunction with a Digital Producer</p>
             </ol>

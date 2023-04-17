@@ -41,7 +41,7 @@ export default function Projects() {
           title="Sydney Children's Hospitals Foundation" 
           backgroundImg={schf} 
           skills='UX and Web Design'
-          projectUrl= {<Link href="/public/SydneyKidsWireframe.pdf"> </Link>}
+          projectUrl="https://www.schf.org.au"
           />
 
           <ProjectItem 
