@@ -26,7 +26,7 @@ export default function Projects() {
         </p>
         <h2 className="text-cool-grey text-3xl font-bold py-4">
           {" "}
-          What I've Built / Worked
+          What I've Built / Worked On
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
 
@@ -34,7 +34,7 @@ export default function Projects() {
           title='Fuel For A Cure' 
           backgroundImg={fuelcure}
           skills='UX and Web Design' 
-          projectUrl='/fuelforcure'
+          projectUrl='https://www.fuelforacure.org/'
           />
 
           <ProjectItem 
@@ -55,7 +55,7 @@ export default function Projects() {
           title='Fantastic E-Commerce' 
           backgroundImg={FE} 
           skills='Next JS, Tailwind CSS, Magic Link, Stripe' 
-          projectUrl='/fantasticecommerce'
+          projectUrl='https://fantastic-ecomerce.vercel.app/'
           />
 
         </div>
